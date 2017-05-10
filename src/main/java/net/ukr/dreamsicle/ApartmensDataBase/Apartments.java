@@ -14,7 +14,7 @@ import static net.ukr.dreamsicle.ApartmensDataBase.ApartmentsView.*;
 public class Apartments {
     private static final String HOST = "jdbc:mysql://localhost:3306/Apartments";
     private static final String USERNAME = "root";
-    private static final String PASSWORD = "root";
+    private static final String PASSWORD = "YURAdreamsicle12345";
 
     static Connection connection;
 
@@ -39,7 +39,7 @@ public class Apartments {
                     System.out.println("4: get the apartment by a area");
                     System.out.println("5: get the apartment by a rooms");
                     System.out.println("6: get the apartment by a price");
-                    System.out.println("7: get the apartment by a all paremeters");
+                    System.out.println("7: get the apartment by a all parameters");
                     System.out.println("If you want to exit, please press enter");
                     System.out.print("-> ");
                     System.out.println();
